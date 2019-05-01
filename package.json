@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "cd client/endgameapp && yarn && yarn run build && cd ../.. && node server",
-    "start": "cd client/endgameapp && yarn && yarn run build && cd ../.. && node server",
+    "start": "node server",
     "dev": "node server"
   },
   "dependencies": {
