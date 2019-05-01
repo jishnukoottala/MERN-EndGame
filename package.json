@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "cd ./client/endgameapp && yarn && yarn run build && cd ../.. && node server",
+    "build": "cd client/endgameapp && yarn && yarn run build && cd ../.. && node server",
+    "start": "cd client/endgameapp && yarn && yarn run build && cd ../.. && node server",
     "dev": "node server"
   },
   "dependencies": {
